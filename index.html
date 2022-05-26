@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/b690895109.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Topcoins</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark py-3 px-lg-2 px-2">
+    <div class="container-fluid">
+      <div class="d-flex align-items-center">
+        <span onclick="sidebar()" class="d-lg-block d-none" style="cursor: pointer;"><i
+            class="fa fa-bars fs-5 me-3"></i></span>
+        <a class="navbar-brand mb-1" href="#"><img src="assets/images/logo.svg" alt=""></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <div class="d-flex align-items-center w-100 justify-content-lg-end justify-content-start py-lg-0 py-3 ">
+          <div class="ws-nav-widget d-flex flex-column align-items-start mx-2">
+            <div class="d-flex align-items-center">
+              <span class="text-primary text-uppercase fw-500 fs-7">bnb</span>
+              <span class="text-danger text-uppercase ms-3 fs-7">-16% </span>
+            </div>
+            <span class="text-center fs-7">$737834 <i class="fa fa-caret-down text-danger ms-1"></i> </span>
+          </div>
+        </div>
+        <ul class="navbar-nav px-3 my-2 d-lg-none d-block">
+          <li class="nav-item">
+            <a class="nav-link fs-6" aria-current="page" href="/add">Add Coin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6" aria-current="page" href="/promote-coin">Promote Coin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6" aria-current="page" href="/banner">Banners</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row mx-0" style="align-items: stretch;">
+    <div class="col-lg-2  p-0  flex-column sidebar" style="transition:0s;">
+      <a href="/add" class="side-item mt-3">Add Coin</a>
+      <a href="/promote-coin" class="side-item">Promote Coin</a>
+      <a href="/banner" class="side-item">Banners</a>
+    </div>
+    <div class="col-lg-10 d-flex flex-column col-12 px-lg-4 px-2 sideotherside" style="transition:0s;">
+      <div class="d-flex flex-column pt-4">
+        <a href="" class="mb-2">
+          <img src="https://topcoin.getdemo.xyz/public/admin/img/1652334081.gif" class="w-100 rounded-2" alt="">
+        </a>
+      </div>
+      <div class="slider-parent">
+        <div class="slider pt-2 w-100">
+          <a href="" class="pe-2"><img class="w-100 rounded-2"
+              src="https://storage.top100token.com/images/3bc2abcd-d279-4747-afbf-a75cbd9df87c.gif" alt=""></a>
+          <a href="" class="pe-2"><img class="w-100 rounded-2"
+              src="https://storage.top100token.com/images/0ef240cd-7eec-4200-91d6-e4661cfe6ff8.gif" alt=""></a>
+          <a href="" class="pe-2"><img class="w-100 rounded-2"
+              src="https://storage.top100token.com/images/ee536f41-cb76-4628-9fb7-ec052dce48a3.gif" alt=""></a>
+          <a href="" class="pe-2"><img class="w-100 rounded-2"
+              src="https://storage.top100token.com/images/3bc2abcd-d279-4747-afbf-a75cbd9df87c.gif" alt=""></a>
+          <a href="" class="pe-2"><img class="w-100 rounded-2"
+              src="https://storage.top100token.com/images/0ef240cd-7eec-4200-91d6-e4661cfe6ff8.gif" alt=""></a>
+          <a href="" class="pe-2"><img class="w-100 rounded-2"
+              src="https://storage.top100token.com/images/ee536f41-cb76-4628-9fb7-ec052dce48a3.gif" alt=""></a>
+        </div>
+      </div>
+
+      <div class="d-flex pt-4 flex-column align-items-center flex-lg-row flex-column justify-content-between">
+        <h1 class="fs-4 mb-0">Promoted</h1>
+        <a href="" class="text-primary">Promote your Coin now!</a>
+      </div>
+      <div class="pt-3">
+        <div class="table-parent">
+          <div class="ws-table">
+            <div class="row mx-0 ws-table-head">
+              <div class="col-3 fw-600  ps-5">Name</div>
+              <div class="col-2 fw-600 ">Social</div>
+              <div class="col-1 fw-600 ">Price</div>
+              <div class="col-1 fw-600 text-center">24h%</div>
+              <div class="col-1 fw-600 ">Market </div>
+              <div class="col-1 fw-600 ">LP</div>
+              <div class="col-1 fw-600 px-0 text-center">Age</div>
+              <div class="col-2 fw-600 text-center">Vote</div>
+            </div>
+            <div class="row mx-0 ws-table-body">
+              <div class="col-3">
+                <div class="d-flex align-items-center">
+                  <span class="me-3"><i class="fa fa-star text-warning"></i></span>
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIiLrRmNOJFnr9FC8Z_U5rEzLI_ldt_xBKQ&usqp=CAU"
+                      class="ws-table-logo" alt="">
+                    <div class="d-flex flex-column ps-2">
+                      <span class="fs-6 fw-500 pb-1">Binance Coin</span>
+                      <div class="d-flex align-items-center">
+                        <img src="assets/images/bnb.webp" class="ws-table-logo-small" alt="">
+                        <a href="" class="badge-audit fs-9 mx-1 ">Audit</a>
+                        <a href="" class="badge-kyc fs-9 mx-1 ">Kyc</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center h-100">
+                  <a href="" class="me-1 fs-6"><i class="fa fa-chrome"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fab fa-discord" style="color: #5865F2;"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fa fa-twitter" style="color: #1DA1F2;"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fa fa-telegram" style="color: #0088CC;"></i> </a>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $699
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 justify-content-center">
+                  <i class="fa fa-caret-down text-danger mx-1"></i> <span class="text-danger">4.35%</span>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $19.96M
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $260,982
+                </div>
+              </div>
+              <div class="col-1 px-0">
+                <div class="d-flex align-items-center justify-content-center  h-100 fs-7">
+                  2 months
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center justify-content-center  h-100 fs-7">
+                  <button class="btn-1"><img src="assets/images/moon.webp" alt=""> 2232</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-4 d-flex flex-wrap">
+        <button class="btn-1 active px-3 my-2 me-3"><img src="assets/images/moon.webp" class="me-1" alt="">
+          Trending</button>
+        <button class="btn-1  px-3 my-2 me-3"><img src="assets/images/crown.webp" class="me-1" alt=""> New</button>
+        <button class="btn-1  px-3 my-2 me-3"><img src="assets/images/fire.webp" class="me-1" alt=""> Today's
+          Best</button>
+        <button class="btn-1  px-3 my-2 me-3"><img src="assets/images/gem.webp" class="me-1" alt=""> Daily Top</button>
+        <button class="btn-1  px-3 my-2 me-3"><img src="assets/images/ticket.webp" class="me-1" alt=""> All
+          Time</button>
+        <button class="btn-1  px-3 my-2 me-3"><img src="assets/images/ticket.webp" class="me-1" alt=""> Audit</button>
+        <button class="btn-1  px-3 my-2 me-3"><img src="assets/images/ticket.webp" class="me-1" alt=""> Kyc</button>
+      </div>
+      <div class="py-3">
+        <div class="table-parent">
+          <div class="ws-table">
+            <div class="row mx-0 ws-table-head">
+              <div class="col-3 fw-600  ps-5">Name</div>
+              <div class="col-2 fw-600 ">Social</div>
+              <div class="col-1 fw-600 ">Price</div>
+              <div class="col-1 fw-600 text-center">24h%</div>
+              <div class="col-1 fw-600 ">Market </div>
+              <div class="col-1 fw-600 ">LP</div>
+              <div class="col-1 fw-600 px-0 text-center">Age</div>
+              <div class="col-2 fw-600 text-center">Vote</div>
+            </div>
+            <div class="row mx-0 ws-table-body">
+              <div class="col-3">
+                <div class="d-flex align-items-center">
+                  <span class="me-3"><i class="fa fa-star text-warning"></i></span>
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIiLrRmNOJFnr9FC8Z_U5rEzLI_ldt_xBKQ&usqp=CAU"
+                      class="ws-table-logo" alt="">
+                    <div class="d-flex flex-column ps-2">
+                      <span class="fs-6 fw-500 pb-1">Binance Coin</span>
+                      <div class="d-flex align-items-center">
+                        <img src="assets/images/bnb.webp" class="ws-table-logo-small" alt="">
+                        <a href="" class="badge-audit fs-9 mx-1 ">Audit</a>
+                        <a href="" class="badge-kyc fs-9 mx-1 ">Kyc</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center h-100">
+                  <a href="" class="me-1 fs-6"><i class="fa fa-chrome"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fab fa-discord" style="color: #5865F2;"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fa fa-twitter" style="color: #1DA1F2;"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fa fa-telegram" style="color: #0088CC;"></i> </a>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $699
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 justify-content-center">
+                  <i class="fa fa-caret-down text-danger mx-1"></i> <span class="text-danger">4.35%</span>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $19.96M
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $260,982
+                </div>
+              </div>
+              <div class="col-1 px-0">
+                <div class="d-flex align-items-center justify-content-center  h-100 fs-7">
+                  2 months
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center justify-content-center  h-100 fs-7">
+                  <button class="btn-1"><img src="assets/images/moon.webp" alt=""> 2232</button>
+                </div>
+              </div>
+            </div>
+            <div class="row mx-0 ws-table-body">
+              <div class="col-3">
+                <div class="d-flex align-items-center">
+                  <span class="me-3"><i class="fa fa-star text-warning"></i></span>
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIiLrRmNOJFnr9FC8Z_U5rEzLI_ldt_xBKQ&usqp=CAU"
+                      class="ws-table-logo" alt="">
+                    <div class="d-flex flex-column ps-2">
+                      <span class="fs-6 fw-500 pb-1">Binance Coin</span>
+                      <div class="d-flex align-items-center">
+                        <img src="assets/images/bnb.webp" class="ws-table-logo-small" alt="">
+                        <a href="" class="badge-audit fs-9 mx-1 ">Audit</a>
+                        <a href="" class="badge-kyc fs-9 mx-1 ">Kyc</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center h-100">
+                  <a href="" class="me-1 fs-6"><i class="fa fa-chrome"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fab fa-discord" style="color: #5865F2;"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fa fa-twitter" style="color: #1DA1F2;"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fa fa-telegram" style="color: #0088CC;"></i> </a>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $699
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 justify-content-center">
+                  <i class="fa fa-caret-down text-danger mx-1"></i> <span class="text-danger">4.35%</span>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $19.96M
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $260,982
+                </div>
+              </div>
+              <div class="col-1 px-0">
+                <div class="d-flex align-items-center justify-content-center  h-100 fs-7">
+                  2 months
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center justify-content-center  h-100 fs-7">
+                  <button class="btn-1"><img src="assets/images/moon.webp" alt=""> 2232</button>
+                </div>
+              </div>
+            </div>
+            <div class="row mx-0 ws-table-body">
+              <div class="col-3">
+                <div class="d-flex align-items-center">
+                  <span class="me-3"><i class="fa fa-star text-warning"></i></span>
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIiLrRmNOJFnr9FC8Z_U5rEzLI_ldt_xBKQ&usqp=CAU"
+                      class="ws-table-logo" alt="">
+                    <div class="d-flex flex-column ps-2">
+                      <span class="fs-6 fw-500 pb-1">Binance Coin</span>
+                      <div class="d-flex align-items-center">
+                        <img src="assets/images/bnb.webp" class="ws-table-logo-small" alt="">
+                        <a href="" class="badge-audit fs-9 mx-1 ">Audit</a>
+                        <a href="" class="badge-kyc fs-9 mx-1 ">Kyc</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center h-100">
+                  <a href="" class="me-1 fs-6"><i class="fa fa-chrome"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fab fa-discord" style="color: #5865F2;"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fa fa-twitter" style="color: #1DA1F2;"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fa fa-telegram" style="color: #0088CC;"></i> </a>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $699
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 justify-content-center">
+                  <i class="fa fa-caret-down text-danger mx-1"></i> <span class="text-danger">4.35%</span>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $19.96M
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $260,982
+                </div>
+              </div>
+              <div class="col-1 px-0">
+                <div class="d-flex align-items-center justify-content-center  h-100 fs-7">
+                  2 months
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center justify-content-center  h-100 fs-7">
+                  <button class="btn-1"><img src="assets/images/moon.webp" alt=""> 2232</button>
+                </div>
+              </div>
+            </div>
+            <div class="row mx-0 ws-table-body">
+              <div class="col-3">
+                <div class="d-flex align-items-center">
+                  <span class="me-3"><i class="fa fa-star text-warning"></i></span>
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIiLrRmNOJFnr9FC8Z_U5rEzLI_ldt_xBKQ&usqp=CAU"
+                      class="ws-table-logo" alt="">
+                    <div class="d-flex flex-column ps-2">
+                      <span class="fs-6 fw-500 pb-1">Binance Coin</span>
+                      <div class="d-flex align-items-center">
+                        <img src="assets/images/bnb.webp" class="ws-table-logo-small" alt="">
+                        <a href="" class="badge-audit fs-9 mx-1 ">Audit</a>
+                        <a href="" class="badge-kyc fs-9 mx-1 ">Kyc</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center h-100">
+                  <a href="" class="me-1 fs-6"><i class="fa fa-chrome"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fab fa-discord" style="color: #5865F2;"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fa fa-twitter" style="color: #1DA1F2;"></i> </a>
+                  <a href="" class="me-1 fs-6"><i class="fa fa-telegram" style="color: #0088CC;"></i> </a>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $699
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 justify-content-center">
+                  <i class="fa fa-caret-down text-danger mx-1"></i> <span class="text-danger">4.35%</span>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $19.96M
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="d-flex align-items-center  h-100 fs-7">
+                  $260,982
+                </div>
+              </div>
+              <div class="col-1 px-0">
+                <div class="d-flex align-items-center justify-content-center  h-100 fs-7">
+                  2 months
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center justify-content-center  h-100 fs-7">
+                  <button class="btn-1"><img src="assets/images/moon.webp" alt=""> 2232</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+</html>
