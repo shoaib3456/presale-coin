@@ -226,6 +226,23 @@ body {
     min-width: 100px;
     justify-content: center;
 }
+.btn-2 {
+    background-color: transparent;
+    border: 1px solid #798fb6;
+    color: #798fb6;
+    display: flex;
+    align-items: center;
+    padding: 6px 0px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    min-width: 100px;
+    justify-content: center;
+}
+.btn-2:hover {
+    color: white;
+    background-color: #798fb6;
+}
 
 .btn-1 img {
     width: 20px;
@@ -255,4 +272,37 @@ body {
     .ws-table{
         min-width: 00px;
     }
+}
+
+.ws-box-1{
+    background-color: var(--bg-dark-2);
+    border-radius: 10px;
+    border: 1px solid #2d3748;
+}
+
+.form-control,
+.form-select{
+    background-color: var(--bg-dark);
+    padding:12px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white !important;
+}
+.form-control:focus,
+.form-select:focus{
+    background-color: var(--bg-dark);
+    color: white !important;
+}
+.badge-split{
+    border: 1px solid #2d3748;
+    font-size: 12px;
+    display: flex;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.badge-split span{
+    padding: 5px 10px;
+}
+.badge-split span:nth-child(2){
+    background-color: var(--bg-dark);
 }
