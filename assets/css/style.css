@@ -342,6 +342,8 @@ body {
     align-items: center;
     min-width: 100px;
     border: 2px solid var(--bg-dark);
+    text-decoration: none;
+    color: white;
 }
 
 .g-btn:hover {
@@ -350,7 +352,7 @@ body {
     background: transparent;
 }
 
-.vote-btn {
+.g-btn-2 {
     background-image: linear-gradient(-40deg, #a441bf, #6353cf);
     font-weight: 500;
     font-size: 13px;
@@ -362,10 +364,13 @@ body {
     min-width: 100px;
     border: none;
     transition: .3s;
+    text-decoration: none;
+    color: white;
 }
 
-.vote-btn:hover {
+.g-btn-2:hover {
     transform: scale(1.05);
+    color: white;
 }
 
 .con-add {
@@ -374,7 +379,15 @@ body {
     font-size: 17px;
     font-weight: 500;
 }
-
+@media (max-width:991px) {
+    .con-add{
+        font-size: 13px;
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+        overflow-x: hidden;
+    }
+}
 .symbol-badge {
     background-image: linear-gradient(-40deg, #a441bf, #6353cf);
     font-weight: 600;
