@@ -139,71 +139,10 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.089);
 }
 
-.ws-nav-widget {
-    background-color: var(--bg-dark-2);
-    padding: 5px 13px;
-    border-radius: 5px;
-}
-
-.sidebar {
-    background-color: #15102E;
-    border-right: 1px solid rgba(255, 255, 255, 0.089);
-    display: flex;
-}
-
-@media (max-width:991px) {
-    .sidebar {
-        display: none;
-    }
-}
-
-.side-item {
-    padding: 12px 20px;
-}
-
-.side-item:hover {
-    color: var(--bg-dark);
-    background-color: var(--prmary-color);
-    font-weight: 500;
-}
 
 .rounded-2 {
     border-radius: 8px !important;
 }
-
-.ws-table {
-    background-color: var(--bg-dark-2);
-    overflow: hidden;
-    border-radius: 10px;
-    border: 1px solid #2d3748;
-}
-
-.ws-table-head {
-    padding: 20px 10px;
-    border-bottom: 1px solid #2d3748;
-}
-
-.ws-table-body {
-    border-bottom: 1px solid #2d3748;
-    padding: 15px 10px;
-}
-
-.ws-table-body:hover {
-    background-color: var(--bg-dark);
-    cursor: pointer;
-    border-color: transparent;
-}
-
-.ws-table-logo {
-    border-radius: 50%;
-    width: 50px;
-}
-
-.ws-table-logo-small {
-    width: 19px;
-    border-radius: 50%;
-}
-
 .badge-audit {
     color: var(--prmary-color);
     border: 1px solid var(--prmary-color);
@@ -379,6 +318,9 @@ body {
     font-size: 17px;
     font-weight: 500;
 }
+.font-num{
+    font-family: 'Rajdhani', sans-serif;
+}
 @media (max-width:991px) {
     .con-add{
         font-size: 13px;
@@ -447,4 +389,48 @@ body {
 .btn-link img{
     width: 20px;
     margin-right: 6px;
+}
+a.ms-2.symbol-badge-,
+.symbol-badge-plain {
+    background: #6237d8;
+}
+.cs-spinner {
+    background-color: white;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: live 1s infinite linear;
+}
+@keyframes live {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.wx-table{
+    background-color: #281E48;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.wx-table-td{
+    padding: 16px 15px;
+}
+.td-logo{
+    width: 48px;
+    border-radius: 50%;
+}
+.chain-logo{
+    width: 22px;
+    border-radius: 50%;
+}
+.table-icon-1{
+    width: 20px;
+}
+.text-underline{
+    text-decoration: underline;
 }
